@@ -25,3 +25,7 @@ This is an Express-based API that generates healthy recipes and exercises based 
 2. Create `.env` file:
    ```bash
    API_KEY=your-google-api-key
+
+3. Start the server:
+   ```bash
+   npm start
