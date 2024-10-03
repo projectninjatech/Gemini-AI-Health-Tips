@@ -39,7 +39,7 @@ function cleanJsonResponse(text) {
 
 
 // API route to generate 3 recipes and 3 exercises based on BMI
-app.post('/generate-recipes', async (req, res) => {
+app.post('/generate-ai-health-tips', async (req, res) => {
     try {
         const { bmi } = req.body;
 
